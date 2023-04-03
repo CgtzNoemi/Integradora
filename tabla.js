@@ -2,8 +2,6 @@ $(document).ready(function(){
     $('.msj').hide();
     $('.formulario').hide();
         var tabla = $('#tabla').DataTable({
-            
-            "serverSide": true,
     
             "ajax":{
                 "method":"POST",
