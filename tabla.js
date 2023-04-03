@@ -9,7 +9,7 @@ $(document).ready(function(){
             "ajax":{
                 "method":"POST",
                 "url":"backend/datos.php", 
-                dataType: "JSON",
+                "dataType": "JSON",
             },
             "columns":[
                 {"data":"id"},
