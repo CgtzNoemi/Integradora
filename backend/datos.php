@@ -11,7 +11,7 @@ if(!$sql_resul){
     while($datos = mysqli_fetch_assoc($sql_resul)){
         $array['data'][] = $datos;
     }
-    echo $array;
+    echo json_encode($array);
 }
 
 mysqli_free_result($sql_resul);
