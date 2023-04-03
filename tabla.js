@@ -2,10 +2,14 @@ $(document).ready(function(){
     $('.msj').hide();
     $('.formulario').hide();
         var tabla = $('#tabla').DataTable({
+            "processing": true, 
+            "serverSide": true, 
+            "deferRender": true,
     
             "ajax":{
                 "method":"POST",
                 "url":"backend/datos.php", 
+                dataType: "JSON",
             },
             "columns":[
                 {"data":"id"},
