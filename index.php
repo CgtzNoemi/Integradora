@@ -59,7 +59,7 @@
                     <th>Id</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th>Edades</th>
+                    <th>Edad</th>
                     <th class="accion">Acciones</th>
                 </thead>
                 <tbody>
