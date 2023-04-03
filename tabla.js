@@ -27,7 +27,7 @@ $(document).ready(function(){
         borrar("#tabla tbody",tabla);
         ver("#tabla tbody",tabla);
         
-        $(".formulario").on("guardar", function(e){
+        $(".formulario").on("submit", function(e){
             e.preventDefault();
             var idx = $('#id').val(), nombre = $('#nombre').val(), apellido = $('#apellido').val(), edad = $('#edad').val();
             let valnomyape = /^[a-zA-ZÁ-ÿ\s]{3,30}$/;
